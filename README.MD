@@ -3,6 +3,10 @@
 This project is a high-performance Live Wallpaper for Android that runs Conway's Game of Life, with the additional effect where every pixels color is determined by the ancestors that helped create the cell or keep it alive.  
 _This project was developed with assistance from Gemini._
 
+## Downloads
+
+Download the unsigned APK from [here](https://github.com/ShubhamSinghCodes/NebulaWallpaper/releases). I will probably not get around to generating a signed APK anytime soon.
+
 ## Screenshots
 
 <a href="https://raw.githubusercontent.com/ShubhamSinghCodes/NebulaWallpaper/main/assets/screen1.jpeg"><img src="assets/screen1.jpeg" width="150px"/></a> 
