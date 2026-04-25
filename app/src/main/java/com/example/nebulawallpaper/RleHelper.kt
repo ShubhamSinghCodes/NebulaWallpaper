@@ -57,10 +57,10 @@ object RleHelper {
         } catch (e: Exception) { return null }
     }
 
-    fun encodeRle(grid: Array<BooleanArray>): String {
+    fun encodeRle(grid: Array<BooleanArray>, ruleString: String): String {
         if (grid.isEmpty() || grid[0].isEmpty()) return ""
         val h = grid.size; val w = grid[0].size
-        val sb = StringBuilder().append("x = $w, y = $h, rule = B3/S23\n")
+        val sb = StringBuilder().append("x = $w, y = $h, rule = $ruleString\n")
         var currentLineLength = 0
 
         fun appendStr(str: String) {

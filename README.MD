@@ -5,7 +5,7 @@ _This project was developed with assistance from Gemini._
 
 ## Downloads
 
-Download the unsigned APK from [here](https://github.com/ShubhamSinghCodes/NebulaWallpaper/releases). I will probably not get around to generating a signed APK anytime soon.
+<a href='https://github.com/ShubhamSinghCodes/NebulaWallpaper/releases'><img alt='Get it on GitHub' height="80" src='assets/badge_github.png'/></a>
 
 ## Screenshots
 

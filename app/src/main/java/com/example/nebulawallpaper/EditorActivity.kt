@@ -249,7 +249,8 @@ class EditorView(context: Context) : View(context) {
                 subGrid[y - yMin][x - xMin] = (z > 127)
             }
         }
-        return RleHelper.encodeRle(subGrid)
+        val currentRule = NebulaPreferences.getCurrentRule(context).rule
+        return RleHelper.encodeRle(subGrid, currentRule)
     }
 
     fun startPaste(pGrid: Array<BooleanArray>) {
